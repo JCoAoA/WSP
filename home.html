@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Au Virtual Quest</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">John Clark E. Sac</h3>
+         <p class="role">Grade 12 ICT - A1</p>
+         <a href="profile.html" class="btn">View Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">John Clark E. Sac</h3>
+      <p class="role">Grade 12 ICT - A1</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html" class="active"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span class="about">About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+   </nav>
+</div>
+
+<section class="home-grid">
+
+   <h1 class="heading">Quick Guide</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Create An Account</h3>
+         <p class="likes"><span>1.</span> Input all the informations needed.</p>
+         <p class="likes"><span>2.</span> Check if your information is all correct, it cannot be updated unless assistance is contacted.</p>
+         <p class="likes"><span>3.</span> Join a specific class using your teacher's class code.</p>
+         <a href="register.html" class="inline-btn">Register Now</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Join a Class</h3>
+         <div class="flex">
+            <p class="likes"><span>1.</span> Copy the class code given by your teacher.</p>
+            <p class="likes"><span>2.</span> Go to "Classes" page and click "Join Class".</p>
+            <p class="likes"><span>3.</span> Finally, paste the class code and welcome to your new class.</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Pass Your Works</h3>
+         <div class="flex">
+            <p class="likes"><span>1.</span> Go to "Classes" and look for the activity you want to pass.</p>
+            <p class="likes"><span>2.</span> Look for the "Submit" button and click it.</p>
+            <p class="likes"><span>3.</span> Lastly, upload your file and click finish for your teacher to receive it.</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Enjoy While Learning With Points!</h3>
+         <p class="likes"><span>1.</span> Login everyday to get daily points.</p>
+         <p class="likes"><span>2.</span> You can get points by passing activities earlier or before its deadline.</p>
+            <a href="#" class="inline-btn">See more about points</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="courses">
+
+   <h1 class="heading">Courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-2.jpg" alt="">
+            <div class="info">
+               <h3>Juvy Mae Asuncion</h3>
+               <span>Understanding Culture, Society, and Politics</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/uscp.jpg" alt="">
+            <span>Lesson 1</span>
+         </div>
+         <h3 class="title">What is UCSP?</h3>
+         <a href="juvyplaylist.html" class="inline-btn">View Class</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pspic.jpg" alt="">
+            <div class="info">
+               <h3>Nikka Joy Cabia-an</h3>
+               <span>Physical Science</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/science.png" alt="">
+            <span>Lesson 1</span>
+         </div>
+         <h3 class="title">Module 1</h3>
+         <a href="nikkaplaylist.html" class="inline-btn">View Class</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-4.jpg" alt="">
+            <div class="info">
+               <h3>Jerry Limin Hombrebueno</h3>
+               <span>Physical Education 4</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/pe.jpg" alt="">
+            <span>Lesson 1</span>
+         </div>
+         <h3 class="title">Recreational Activities</h3>
+         <a href="jerryplaylist.html" class="inline-btn">View Class</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-5.jpg" alt="">
+            <div class="info">
+               <h3>Michaella Mendoza</h3>
+               <span>Research Project</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/pr.jpg" alt="">
+            <span>Lesson 1</span>
+         </div>
+         <h3 class="title">Research Introduction</h3>
+         <a href="miccayplaylist.html" class="inline-btn">View Class</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-6.jpg" alt="">
+            <div class="info">
+               <h3>Edward Eboña</h3>
+               <span>Animation 4</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/anim2.jpg" alt="">
+            <span>Lesson 2</span>
+         </div>
+         <h3 class="title">Grid Drawing</h3>
+         <a href="edwardplaylist.html" class="inline-btn">View Class</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-7.jpg" alt="">
+            <div class="info">
+               <h3>Lisa Ranchez</h3>
+               <span>Work Immersion</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/immersion.jpg" alt="">
+            <span>Lesson 1</span>
+         </div>
+         <h3 class="title">Work Ethics</h3>
+         <a href="lisaplaylist.html" class="inline-btn">View Class</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-7.jpg" alt="">
+            <div class="info">
+               <h3>Gladys Malvas</h3>
+               <span>Animation 3</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/anim3.jpg" alt="">
+            <span>Lesson 1</span>
+         </div>
+         <h3 class="title">Animation 3</h3>
+         <a href="gladysplaylist.html" class="inline-btn">View Class</a>
+      </div>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">View All Classes</a>
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; Copyright @ 2024 by <span>Group 4</span> | All Rights Reserved.
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
